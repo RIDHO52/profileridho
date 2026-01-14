@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Ridho N  | Network Engineer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 80px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #0ea5e9, #2563eb);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+            border-left: 4px solid #38bdf8;
+            padding-left: 10px;
+        }
+
+        .card {
+            background: #020617;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li::before {
+            content: "⦿";
+            color: #38bdf8;
+            margin-right: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Muhammad Ridho N</h1>
+        <p>XI TJKT • Network Engineer Enthusiast</p>
+    </header>
+
+    <section>
+        <h2>Profil</h2>
+        <div class="card">
+            <p>
+                Saya adalah siswa kelas XI jurusan <b>Teknik Jaringan Komputer dan Telekomunikasi (TJKT)</b> 
+                yang memiliki minat dalam bidang jaringan komputer, perakitan PC, dan keamanan jaringan.
+            </p>
+        </div>
+
+        <h2>Keahlian & Project</h2>
+        <div class="card">
+            <ul>
+                <li>Perakitan PC</li>
+                <li>Instalasi Kabel Jaringan (LAN)</li>
+                <li>Pembuatan Website HTML Dasar</li>
+            </ul>
+        </div>
+
+        <h2>Sertifikat & Pelatihan</h2>
+        <div class="card">
+            <ul>
+                <li>Cyber Security</li>
+                <li>Network Fundamental</li>
+                <li>Pelatihan Jurusan TJKT</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 • Muhammad Ridho N  | Network Engineer
+    </footer>
+
+</body>
+</html>
